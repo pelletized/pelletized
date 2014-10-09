@@ -1,0 +1,48 @@
+.overlay {
+position:fixed;
+top:0;
+left:0;
+display:block;
+background-color:$color-black;
+width:100%;
+height:100%;
+opacity:0.5;
+z-index:99;
+}
+
+.contact-modal {
+position:fixed;
+top:20%;
+left:50%;
+width:430px;
+height:280px;
+margin-left:-215px;
+background-color:$color-white;
+z-index:100;
+}
+
+.contact {
+background-color:$color-white;
+padding:0 20px 20px 20px;
+margin-bottom:30px;
+box-shadow: 2px 2px 0 0 $color-dark-grey;
+}
+
+.btn {
+width:80%;
+padding:20px;
+margin:5px 0;
+border:none;
+cursor:pointer;
+font-size:1em;
+font-weight:bold;
+text-transform:uppercase;
+}
+
+.btn-submit {
+background-color:$color-timefortea;
+}
+
+.btn-exit {
+background-color:#D4025A;
+}

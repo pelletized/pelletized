@@ -1,0 +1,14 @@
+	/*
+	//open contact modal
+	$('.btn-contact').on('click', function(event) {				
+		event.preventDefault();		
+		$('body').append('<div class="overlay"></div>');	
+		$('body').append('<div class="contact-modal animated zoomInUp"></div>');
+		$('.contact-modal').load('contact/contactmodal.php');
+	});
+	
+	//close modal
+	$('body').on('click', '.overlay, .btn-exit', function() {		
+		$('.overlay, .contact-modal').remove();	
+	});
+	*/

@@ -1,0 +1,42 @@
+.global-footer {
+color: $footer-link-color; 
+height:130px;
+padding-top:30px;
+}
+
+ul.social li {
+list-style-type:none;
+margin:3px 3px 3px 0;
+display:inline-block;
+background:$color-dark-grey url(../images/social64.png) no-repeat 0 0;
+text-indent:-9999px;
+border-radius:3px;
+}
+
+ul.social li.social-github {background-position:0 -450px;}
+ul.social li:hover.social-github {background-color:#4183C4;}
+ul.social li.social-insta {background-position:0 -258px;}
+ul.social li:hover.social-insta {background-color:#3F729B;}
+ul.social li.social-lastfm {background-position:0 -192px;}
+ul.social li:hover.social-lastfm {background-color:#D51007;}
+
+ul.social li.social-twitter {background-position:0 0;}
+ul.social li:hover.social-twitter {background-color:#39A9E0;}
+ul.social li.social-fb {background-position:0 -512px;}
+ul.social li:hover.social-fb {background-color:#3B5998;}
+ul.social li.social-tumblr {background-position:0 -67px;}
+ul.social li:hover.social-tumblr {background-color:#2C4762;}
+
+ul.social li.social-linkedin {background-position:0 -128px;}
+ul.social li:hover.social-linkedin {background-color:#007FB1;}
+ul.social li.social-goodreads {background-position:0 -384px;}
+ul.social li:hover.social-goodreads {background-color:#5A471B;}
+ul.social li.social-googleplus {background-position:0 -320px;}
+ul.social li:hover.social-googleplus {background-color:#D14836;}
+
+.social li a {
+display:block;
+width:64px;
+height:64px;
+outline:none;
+}

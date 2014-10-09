@@ -1,0 +1,39 @@
+// color palette from http://www.colourlovers.com/palette/1654190/Suffocation
+// and http://www.colourlovers.com/palette/1692813/Brilliant_Lava
+$color-starbright: #F1EA9B;
+$color-timefortea: #93D977;
+$color-mermaid: #208060;
+$color-totalblur: #314954;
+$color-sameonsame: #210D33;
+$color-deepblood: #B41C1C;
+$color-citrusorange: #EF6512;
+
+$color-white: #FFF;
+$color-black: #111;
+
+$color-grey: #EFEFEF;
+$color-dark-grey: #DCDCDC;
+
+//header
+$header-background-color: $color-white;
+$header-link-color: $color-black;
+$header-link-hover-top: $color-mermaid;
+
+//footer
+$footer-background-color: $color-white;
+$footer-link-color: $color-black;
+
+//main
+$body-background-color: $color-white; 
+$main-background-color: $color-grey; 
+
+$highlighted-row-background-color: $color-sameonsame;
+$highlighted-link-color: $color-mermaid;
+$highlighted-link-hover-color: $color-starbright;
+
+$highlight-color: $color-starbright;
+
+$link-color: $color-deepblood;
+$link-hover-color: $color-citrusorange;
+
+$font-stack: "Trebuchet MS", arial, helvetica, sans-serif;
