@@ -14,7 +14,7 @@
 			</ul>
 		</div>
 		<div class="col col-30 col-right">
-		&copy; 2005 - 2014 Ed Wheeler 	
+		&copy; 2005 - <?php echo date("Y"); ?> Ed Wheeler 	
 		</div>
 		
 	</div>

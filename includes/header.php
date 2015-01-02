@@ -43,7 +43,7 @@ if ($ip == '90.196.84.255' || $ip == '71.13.75.131' || $ip == '70.176.128.138' |
 					<?php } else { ?>
 						<li><a href="/contact/">Contact</a></li>
 					<?php }	?>	
-						<li><a href="http://blog.pelletized.com">Blog</a></li>
+						<!--<li><a href="http://blog.pelletized.com">Blog</a></li>-->
 				</ul>
 				<p id="pageid"><?=$page?>
 			</div><!--/.col-->
