@@ -16,7 +16,8 @@ color: $color-black;
 .port-item {
 position:relative;
 background-color:$color-white;
-height:430px;
+//height:430px;
+min-height:390px;
 padding:0 5px;
 margin-bottom:20px;
 font-size:0.8rem;
@@ -28,10 +29,11 @@ box-shadow: 2px 2px 0 0 $color-dark-grey;
 	font-size:0.8rem;
 	line-height:1.2rem;
 	}
-	
+
 	.port-links {
 	position:absolute;
 	left:10px;
 	bottom:0;
 	}
+
 }

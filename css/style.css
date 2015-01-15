@@ -413,7 +413,7 @@ h3 {
 .port-item {
   position: relative;
   background-color: #FFF;
-  height: 430px;
+  min-height: 390px;
   padding: 0 5px;
   margin-bottom: 20px;
   font-size: 0.8rem;
@@ -584,17 +584,11 @@ ul.social li:hover.social-googleplus {
     padding: 0 1%;
   }
 
-  .port-item .port-links {
-    position: static;
-    margin-left: 5px;
-    padding-bottom: 10px;
+  .port-item {
+    height: 400px;
   }
 }
 @media screen and (max-width: 768px) {
-  .col-33, .col-25 {
-    width: 50%;
-  }
-
   #hamburger, #pageid {
     display: block;
   }
@@ -629,16 +623,34 @@ ul.social li:hover.social-googleplus {
     width: 100%;
   }
 
+  .col-33, .col-25 {
+    width: 50%;
+  }
+
   .global-header {
     height: 300px;
+  }
+
+  footer, footer .col-right {
+    text-align: center;
+  }
+
+  .port-item {
+    height: 370px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .col-33, .col-25 {
+    width: 100%;
   }
 
   .port-item {
     height: auto;
   }
-
-  footer, footer .col-right {
-    text-align: center;
+  .port-item .port-links {
+    position: static;
+    margin-left: 5px;
+    padding-bottom: 10px;
   }
 }
 

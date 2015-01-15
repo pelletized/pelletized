@@ -1,6 +1,7 @@
 $breakpoint-large: 800px;
 $breakpoint-medium: 768px;
 $breakpoint-small: 600px;
+$breakpoint-x-small: 480px;
 
 
 @media screen and (max-width: $breakpoint-large) {
@@ -15,22 +16,12 @@ $breakpoint-small: 600px;
 	}
 	
 	.port-item {
-	//height:auto;
-	
-		.port-links {
-		position:static;
-		margin-left:5px;
-		padding-bottom:10px;
-		}
+	height:400px;
 	}
-	
 	
 }
 
-@media screen and (max-width: $breakpoint-medium) {	
-	.col-33, .col-25 {
-	width:50%;
-	}	
+@media screen and (max-width: $breakpoint-medium) {		
 	
 	#hamburger, #pageid {
 	display:block;
@@ -49,8 +40,7 @@ $breakpoint-small: 600px;
 	
 	.nav-main .col {
 	width:100%;
-	}
-	
+	}	
 }
 
 @media screen and (max-width: $breakpoint-small) {
@@ -69,16 +59,38 @@ $breakpoint-small: 600px;
 	width:100%;
 	}
 	
+	.col-33, .col-25 {
+	width:50%;
+	}
+	
 	.global-header {
 	height:300px;
 	}	
 	
-	.port-item {
-	height:auto;
-	}
-	
 	footer, footer .col-right {
 	text-align:center;	
 	}	
+	
+	.port-item {
+	height:370px;
+	}
+}
 
+@media screen and (max-width: $breakpoint-x-small) {
+	
+	.col-33, .col-25 {
+	width:100%;
+	}
+	
+	.port-item {
+	height:auto;
+		
+		.port-links {
+		position:static;
+		margin-left:5px;
+		padding-bottom:10px;
+		}
+	
+	}
+	
 }
