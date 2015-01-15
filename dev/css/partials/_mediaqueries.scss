@@ -15,7 +15,7 @@ $breakpoint-small: 600px;
 	}
 	
 	.port-item {
-	height:auto;
+	//height:auto;
 	
 		.port-links {
 		position:static;
@@ -72,6 +72,10 @@ $breakpoint-small: 600px;
 	.global-header {
 	height:300px;
 	}	
+	
+	.port-item {
+	height:auto;
+	}
 	
 	footer, footer .col-right {
 	text-align:center;	

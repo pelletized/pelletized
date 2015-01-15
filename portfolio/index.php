@@ -53,11 +53,8 @@
 				</ul>
 				<p class="port-links"><a href="https://login.nyu.edu/" target="_blank">View site</a></p>
 			</div>
-		</section>
-		
-	</div><!--/.row-->
-	
-	<div class="row">	
+		</section>		
+
 		<section class="col col-25">
 			<div class="port-item">
 				<h3>NYU Stories</h3>
@@ -114,9 +111,7 @@
 				<p class="port-links"><a href="http://www.jamballahnw.com/" target="_blank">View site</a></p>
 			</div>
 		</section>					
-	</div><!--/.row-->
-	
-	<div class="row">
+
 		<section class="col col-25">
 			<div class="port-item">
 				<h3>Axis Automotive Products</h3>
