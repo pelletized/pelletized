@@ -31,9 +31,18 @@ box-shadow: 2px 2px 0 0 $color-dark-grey;
 	}
 
 	.port-links {
-	position:absolute;
+	position:absolute;	
 	left:10px;
-	bottom:0;
+	bottom:0;	
+	}
+
+}
+
+.col-50 {
+
+	.port-links {
+	position:relative;
+	padding-bottom:10px;
 	}
 
 }

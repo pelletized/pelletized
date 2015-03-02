@@ -14,7 +14,33 @@
 		</div>
 	</div>
 	
-	<div class="row">	
+	<div class="row">
+		<section class="col col-50">
+			<div class="port-item">
+				<h3>NYU Stories Redesign</h3>
+				<span class="note">freelance (2014, 2015)</span>
+				<img src="../images/portfolio/nyu-stories-2-sm.jpg" alt="NYU Stories Redesign" />
+				<ul>
+					<li>Custom layout from provided PSD built with HTML/CSS/Javascript</li>				
+					<li>Integration with Adobe CQ5/AEM CMS</li>
+				</ul>
+				<p class="port-links"><a href="http://www.nyu.edu/stories/" target="_blank">View site</a></p>
+			</div>
+		</section>
+		
+		<section class="col col-50">
+			<div class="port-item">
+				<h3>JW Songs (Android App)</h3>
+				<span class="note">personal project (2014)</span>
+				<img src="../images/portfolio/jw-songs-sm.jpg" alt="JW Songs (Android App)" />
+				<ul>
+					<li>HTML/CSS/Javascript wrapped in a webview</li>				
+					<li>15k total downloads within the first 6 months of release</li>
+				</ul>
+				<p class="port-links"><a href="https://play.google.com/store/apps/details?id=com.pelletized.jwsongs" target="_blank">View on Google Play</a></p>
+			</div>
+		</section>
+		
 		<section class="col col-33">
 			<div class="port-item">
 				<h3>NYU Undergraduate Admissions</h3>

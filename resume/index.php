@@ -16,9 +16,14 @@
 	</div>
 	<div class="row">	
 		<section class="col col-70">
-			<h2>Work Experience</h2>			
+			<h2>Work Experience</h2>	
+			
+			<h3>Newsbank, Inc.</h3>
+			<p><strong>Front End Developer</strong> | Oct. 2014 – Present<br />
+			Created front end code for use in emails and websites. Produced HTML emails for mailing lists and marketing purposes, sent through email service providers such as IBM Silverpop. Built front end prototypes for use in multivariate tests using tools like Optimizely for projects including redesigning the homepage, and simplifying search results layouts for Genealogybank.com.</p>
+			
 			<h3>New York University</h3>
-			<p><strong>Web Front-end Developer</strong> | Feb. 2011 &ndash; Apr. 2014 | <strong>Contractor</strong> | Apr. 2014 - present<br />
+			<p><strong>Web Front-end Developer</strong> | Feb. 2011 &ndash; Apr. 2014 | <strong>Contractor</strong> | Apr. 2014 - Sept. 2014<br />
 			Developed front-end code (HTML/CSS/Javascript) and created/followed coding standards across all central NYU related web properties, including nyu.edu. Converted provided PSD's to valid HTML/CSS for both websites and for HTML emails. Created and implemented PHP scripts for assorted projects, including processing contact forms to save to a MySQL database and send emails on submission. Implemented interactive designs into landing pages throughout  nyu.edu. Created documentation for other team members detailing common processes. Assisted in QAing major project releases. Aided back end developers in troubleshooting software bugs, and resolved front end bugs. Initiated the first responsive web project for the central nyu.edu site. Created Wordpress themes for various departments.</p>
 
 			<h3>Peterson's</h3>
@@ -27,7 +32,7 @@
 
 			<h3>Freelance</h3>
 			<p><strong>Web/Graphic Design</strong> | Dec. 2002 - Present<br />
-			Executed projects from concept to completion including websites and logo designs. Designed Wordpress and Drupal themes and sites for personal and client based work. Created and influenced projects for global brands and websites such as NYU.edu. Launched personal projects such as an Android app with over 15k downloads within the first 6 months of release in the Google Play store, and an accompanying web version. Created and designed a Twitter search web app using the Twitter API, Javascript, and PHP.</p>
+			Executed projects from concept to completion including websites and logo designs. Designed Wordpress and Drupal themes and sites for personal and client based work. Launched personal projects such as an Android app with over 15k downloads within the first 6 months of release in the Google Play store, and an accompanying web version. Created and designed a Twitter search web app using the Twitter API, Javascript, and PHP.</p>
 
 			<h3>Angelmark Associates, Inc.</h3>
 			<p><strong>Web Designer</strong> | Sept. 2001 - Nov. 2002<br />
@@ -48,13 +53,14 @@
 		</section>
 		<section class="col col-30">
 			<h2>Skills</h2>
-			<ul>
-				<li>Advanced proficiency in (X)HTML and CSS, well versed in all common web development applications and processes.</li>
-				<li>Restructured pages using semantic HTML/CSS to boost search engine rankings (SEO)</li>
+			<ul>			
+				<li>Advanced proficiency in HTML/HTML5 and CSS/CSS3, well versed in all common web development applications and processes.</li>
+				<li>Designed numerous web sites from concept to completion, including all design and programming, both while employed at companies and for freelance work.</li>
 				<li>Assisted in constructing web standards and best practices for large company web sites.</li>
-				<li>Led training sessions of CSS and best practices with web developers and other technically minded people.</li>
-				<li>Designed numerous web sites from concept to completion, including all design and programming, both while employed at companies and for freelance work.</li>		
+				<li>Able to work from a variety of verbal and written instructions, drawings, sketches, or formal specifications and requirements documents.</li>
 				<li>Created HTML for email newsletter campaigns.</li>
+				<li>Led training sessions of CSS and best practices with web developers and other technically minded people.</li>
+				<li>Restructured pages using semantic HTML/CSS to boost search engine rankings (SEO)</li>
 			</ul>
 			
 			<h2>Technical Experience &amp; Program Knowledge</h2>
