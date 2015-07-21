@@ -30,7 +30,7 @@
 		
 		<section class="col col-50">
 			<div class="port-item">
-				<h3>JW Songs (Android App)</h3>
+				<h3>Theocratic Songs (Android App)</h3>
 				<span class="note">personal project (2014)</span>
 				<img src="../images/portfolio/jw-songs-sm.jpg" alt="JW Songs (Android App)" />
 				<ul>
@@ -119,7 +119,7 @@
 					<li>CSS3 styling</li>
 					<li>Integration with Adobe CQ5/AEM CMS</li>
 				</ul>
-				<p class="port-links"><a href="https://www.nyu.edu/traveler" target="_blank">View site</a></p>
+				<p class="port-links"><a href="http://www.nyu.edu/life/travel-and-transportation/nyu-traveler.html" target="_blank">View site</a></p>
 			</div>
 		</section>
 			
