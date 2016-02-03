@@ -297,7 +297,7 @@ h3 {
   position: relative;
   background-color: #FFF;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center -200px;
   background-size: cover;
   background-attachment: fixed;
   height: 460px;
