@@ -357,6 +357,14 @@ h3 {
   color: #111;
   padding: 0 20px;
 }
+.nav-main li a:hover {
+  /*
+              -webkit-transition:color 0.5s;
+              -moz-transition:color 0.5s;
+              -o-transition:color 0.5s;
+  */
+  transition: background-color 0.5s;
+}
 .nav-main li .active, .nav-main li a:hover {
   text-decoration: none;
   background-color: #EFEFEF;
