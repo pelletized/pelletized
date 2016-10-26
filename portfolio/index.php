@@ -2,7 +2,7 @@
 	$pagetitle = "Portfolio | Ed Wheeler - Web design & HTML/CSS development";
 	$page = "portfolio";
 	$h1 = "Web design and development portfolio for Ed Wheeler";
-	include "../includes/header.php"; 
+	include "../includes/header.php";
 ?>
 
 <div class="main" role="main">
@@ -13,34 +13,70 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="row">
 		<section class="col col-50">
-			<div class="port-item">
-				<h3>NYU Stories Redesign</h3>
-				<span class="note">freelance (2014, 2015)</span>
-				<img src="../images/portfolio/nyu-stories-2-sm.jpg" alt="NYU Stories Redesign" />
-				<ul>
-					<li>Custom layout from provided PSD built with HTML/CSS/Javascript</li>				
-					<li>Integration with Adobe CQ5/AEM CMS</li>
-				</ul>
-				<p class="port-links"><a href="http://www.nyu.edu/stories/" target="_blank">View site</a></p>
-			</div>
+
+			<div class="tile">
+                <a href="http://www.nyu.edu/stories/" target="_blank">
+                    <img src="../images/portfolio/nyu-stories-2-sm.jpg" alt="NYU Stories Redesign" />
+                    <div class="tile-desc">
+                        <div class="tile-content">
+                            <h3 class="tile-title">NYU Stories Redesign</h3>
+                            <div class="tile-blurb">
+								<span class="note">freelance (2014, 2015)</span>
+								<ul>
+									<li>Custom layout from provided PSD built with HTML/CSS/Javascript</li>
+									<li>Integration with Adobe CQ5/AEM CMS</li>
+								</ul>
+							</div>
+                        </div><!--/.tile-content-->
+                        <div class="tile-link tile-content">
+                            View site 🡪
+                        </div>
+                    </div><!--/.tile-desc-->
+                </a>
+            </div><!--/.tile-->
+			<br>
 		</section>
-		
+
 		<section class="col col-50">
+		<!--
 			<div class="port-item">
 				<h3>Theocratic Songs (Android App)</h3>
 				<span class="note">personal project (2014)</span>
 				<img src="../images/portfolio/jw-songs-sm.jpg" alt="JW Songs (Android App)" />
 				<ul>
-					<li>HTML/CSS/Javascript wrapped in a webview</li>				
+					<li>HTML/CSS/Javascript wrapped in a webview</li>
 					<li>15k total downloads within the first 6 months of release</li>
 				</ul>
 				<p class="port-links"><a href="https://play.google.com/store/apps/details?id=com.pelletized.jwsongs" target="_blank">View on Google Play</a></p>
 			</div>
+		-->
+
+			<div class="tile">
+                <a href="https://play.google.com/store/apps/details?id=com.pelletized.jwsongs" target="_blank">
+                    <img src="../images/portfolio/jw-songs-sm.jpg" alt="JW Songs (Android App)" />
+                    <div class="tile-desc">
+                        <div class="tile-content">
+                            <h3 class="tile-title">Theocratic Songs (Android App)</h3>
+                            <div class="tile-blurb">
+								<span class="note">personal project (2014)</span>
+								<ul>
+									<li>HTML/CSS/Javascript wrapped in a webview</li>
+									<li>15k total downloads within the first 6 months of release</li>
+								</ul>
+							</div>
+                        </div><!--/.tile-content-->
+                        <div class="tile-link tile-content">
+                            View on Google Play 🡪
+                        </div>
+                    </div><!--/.tile-desc-->
+                </a>
+            </div><!--/.tile-->
+			<br>
 		</section>
-		
+
 		<section class="col col-33">
 			<div class="port-item">
 				<h3>NYU Undergraduate Admissions</h3>
@@ -53,8 +89,8 @@
 				</ul>
 				<p class="port-links"><a href="http://www.nyu.edu/admissions/undergraduate-admissions.html" target="_blank">View site</a></p>
 			</div>
-		</section>	
-		
+		</section>
+
 		<section class="col col-33">
 			<div class="port-item">
 				<h3>NYU Admissions Blog</h3>
@@ -66,7 +102,7 @@
 				</ul>
 				<p class="port-links"><a href="http://admissionsblog.nyu.edu/" target="_blank">View site</a></p>
 			</div>
-		</section>		
+		</section>
 		<section class="col col-33">
 			<div class="port-item">
 				<h3>NYU Responsive Login</h3>
@@ -79,7 +115,7 @@
 				</ul>
 				<p class="port-links"><a href="https://login.nyu.edu/" target="_blank">View site</a></p>
 			</div>
-		</section>		
+		</section>
 
 		<section class="col col-25">
 			<div class="port-item">
@@ -107,7 +143,7 @@
 				</ul>
 				<p class="port-links"><a href="http://pelletized.com/samples/twitter/search.php" target="_blank">View site</a> | <a href="https://github.com/pelletized/twitter" target="_blank">View on Github</a></p>
 			</div>
-		</section>		
+		</section>
 		<section class="col col-25">
 			<div class="port-item">
 				<h3>NYU Traveler</h3>
@@ -122,7 +158,7 @@
 				<p class="port-links"><a href="http://www.nyu.edu/life/travel-and-transportation/nyu-traveler.html" target="_blank">View site</a></p>
 			</div>
 		</section>
-			
+
 		<section class="col col-25">
 			<div class="port-item">
 				<h3>Jamballah Northwest</h3>
@@ -132,11 +168,11 @@
 					<li>Site design and layout using Photoshop</li>
 					<li>Valid HTML5/CSS3 </li>
 					<li>Custom theme and integration into Drupal</li>
-					<li>Documentation written and provided to client with instructions on how to update content</li>		
-				</ul>				
+					<li>Documentation written and provided to client with instructions on how to update content</li>
+				</ul>
 				<p class="port-links"><a href="http://www.jamballahnw.com/" target="_blank">View site</a></p>
 			</div>
-		</section>					
+		</section>
 
 		<section class="col col-25">
 			<div class="port-item">
@@ -146,9 +182,9 @@
 				<ul>
 					<li>Site design and layout using Photoshop</li>
 					<li>Converted PSD's into standards compliant XHTML and tableless CSS</li>
-					<li>Custom built contact form and PHP templates</li>		
+					<li>Custom built contact form and PHP templates</li>
 				</ul>
-				
+
 				<p class="port-links"><a href="http://axisautomotiveproducts.com" target="_blank">View site</a> | <a href="https://github.com/pelletized/axis" target="_blank">View on Github</a></p>
 			</div>
 		</section>
@@ -160,12 +196,12 @@
 				<ul>
 					<li>Site design and layout using Photoshop</li>
 					<li>Converted PSD's into standards compliant XHTML and tableless CSS</li>
-					<li>Custom built contact form and PHP templates</li>		
-				</ul>			
-				
+					<li>Custom built contact form and PHP templates</li>
+				</ul>
+
 				<p class="port-links"><a rel="nofollow" href="http://xpress.pelletized.com" target="_blank">View archived site</a></p>
 			</div>
-		</section>		
+		</section>
 		<section class="col col-25">
 			<div class="port-item">
 				<h3>Scott Conklin Chiropractic</h3>
@@ -175,7 +211,7 @@
 					<li>Implemented into Blogger templates</li>
 					<li>Integrated Wufoo contact form and Blogger static pages</li>
 				</ul>
-				
+
 				<p class="port-links"><a href="http://www.scottconklinchiropractic.com" target="_blank">View site</a></p>
 			</div>
 		</section>
@@ -184,14 +220,14 @@
 				<h3>CSS Architecture</h3>
 				<span class="note">Completed while employed at Peterson's (2009)</span>
 				<img src="../images/portfolio/css-sm.jpg" alt="CSS Architecture" />
-				<ul>	
+				<ul>
 					<li>PowerPoint training for Web Developers and others who were involved in daily aspects of site development</li>
 					<li>Covered best practices and standards in the world of CSS</li>
 				</ul>
-				
+
 				<p class="port-links"><a href="http://www.slideshare.net/pelletized/css-architecture" target="_blank">View on SlideShare.net</a></p>
 			</div>
-		</section>		
+		</section>
 		<!--<section class="col col-25">
 			<div class="port-item">
 				<h3>EssayEdge Redesign</h3>
@@ -203,7 +239,7 @@
 					<li>Assisted in updating content through a custom built Content Management System which involved updating records in MySQL</li>
 				</ul>
 			</div>
-		</section>-->				
+		</section>-->
 	</div><!--/.row-->
 </div>
 <?php include "../includes/footer.php"; ?>

@@ -6,10 +6,10 @@ color: $color-black;
 	ul {
 	padding-bottom:15px;
 	}
-	
+
 	li {
 	list-style-type:square;
-	margin-left:15px;	
+	margin-left:15px;
 	}
 }
 
@@ -31,9 +31,9 @@ box-shadow: 2px 2px 0 0 $color-dark-grey;
 	}
 
 	.port-links {
-	position:absolute;	
+	position:absolute;
 	left:10px;
-	bottom:0;	
+	bottom:0;
 	}
 
 }
@@ -44,5 +44,84 @@ box-shadow: 2px 2px 0 0 $color-dark-grey;
 	position:relative;
 	padding-bottom:10px;
 	}
+
+}
+
+//the tile section
+.tile {
+position: relative;
+overflow:hidden;
+border: 1px solid $color-dark-grey;
+
+    a {
+        color:#000;
+    }
+
+    img {
+        //width:auto;
+        display:block;
+        max-width:100%;
+    }
+
+    &-desc {
+        position:absolute;
+        left:0;
+        bottom:-30px;
+        background-color:rgba(255,255,255,0.8);
+        width:100%;
+        transition: all 0.15s ease;
+    }
+
+    &-title {
+        margin:0;
+        padding:0;
+    }
+
+    &-blurb {
+        position:relative;
+        margin:0;
+        padding:0;
+        max-height:0;
+        overflow:hidden;
+        transition: all 0.15s ease;
+    }
+
+    &-link {
+        width:100%;
+        background-color:$color-mermaid;
+        z-index:999;
+
+        &:hover {
+            background-color: #000;
+            color:#fff;
+            transition: all 0.15s ease;
+        }
+    }
+
+    &-content {
+        padding:10px;
+    }
+}
+
+.tile:hover {
+
+    .tile-desc {
+        bottom:0;
+        background-color:rgba(255,255,255,1);
+        transition: all 0.15s ease;
+    }
+
+    .tile-blurb {
+        display:block;
+        bottom:0;
+        transition: all 0.15s ease;
+        max-height:300px;
+    }
+
+    .tile-link {
+        display:block;
+        bottom:0;
+        transition: all 0.15s ease;
+    }
 
 }
